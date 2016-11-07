@@ -29,5 +29,8 @@
 			"alasql": "node-red-contrib-alasql.js",
 			"ala-file": "node-red-contrib-ala-file.js"
 		}
-	}
+	},
+	"scripts": {
+    	"test": "cd test && mocha ."
+    }
 }
